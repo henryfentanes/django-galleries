@@ -13,10 +13,10 @@ setup(
     packages = ['galleries'],
     include_package_data = True,
     install_requires = [
-        'easy_thumbnails', 
+        'easy_thumbnails',
         'django-respite>=1.2.0',
         'easy_thumbnails',
-        'PIL',
+        'PILLOW',
         'django-orderable',
         'django-image-cropping'
     ],
